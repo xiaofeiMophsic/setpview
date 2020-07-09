@@ -7,16 +7,46 @@
     tools:context=".FirstFragment">
 
     <com.starmedia.checkinview.StepView
+        android:id="@+id/checkInView2"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="15.5dp"
+        android:paddingEnd="15.5dp"
+        android:paddingTop="45dp"
+        android:paddingBottom="15dp"
+        android:layout_marginStart="28.5dp"
+        android:layout_marginEnd="28.5dp"
+        app:isBiweekly="false"
+        app:defaultBonusIcon="@mipmap/dialog_checkin_gold"
+        app:currentBonusIcon="@mipmap/dialog_checkin_video"
+        app:addedBonusIcon="@mipmap/dialog_checkin_box"
+        app:activeLineColor="#FF20CDFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/checkInView"
+        />
+
+    <com.starmedia.checkinview.StepView
+        android:id="@+id/checkInView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginBottom="30dp"
         android:paddingStart="15.5dp"
         android:paddingEnd="15.5dp"
+        android:paddingTop="21dp"
+        android:paddingBottom="18dp"
         android:layout_marginStart="28.5dp"
         android:layout_marginEnd="28.5dp"
+        app:isBiweekly="true"
+        app:defaultBonusIcon="@mipmap/dialog_checkin_gold"
+        app:currentBonusIcon="@mipmap/dialog_checkin_video"
+        app:addedBonusIcon="@mipmap/dialog_checkin_box"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        app:layout_constraintTop_toBottomOf="@id/checkInView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         />
 
     <Button
@@ -27,16 +57,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
-
-    <TextView
-        android:id="@+id/textview_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/checkInView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

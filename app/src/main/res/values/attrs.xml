@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <!-- 是否展示双周的签到信息 -->
+        <attr name="isBiweekly" format="boolean"/>
+        <!-- 未签到线条颜色 -->
+        <attr name="defaultLineColor" format="color|reference"/>
+        <!-- 已签到线条颜色 -->
+        <attr name="activeLineColor" format="color|reference"/>
+        <!-- 默认金币图标 -->
+        <attr name="defaultBonusIcon" format="reference"/>
+        <!-- 当前签到看视频图标 -->
+        <attr name="currentBonusIcon" format="reference" />
+        <!-- 签到额外奖励图标 -->
+        <attr name="addedBonusIcon" format="reference" />
+    </declare-styleable>
+</resources>
