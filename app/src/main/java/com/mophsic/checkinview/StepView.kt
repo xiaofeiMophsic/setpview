@@ -1,11 +1,10 @@
-package com.starmedia.checkinview
+package com.mophsic.checkinview
 
 import android.content.Context
 import android.graphics.*
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.annotation.UiThread

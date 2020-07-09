@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
-    <com.starmedia.checkinview.StepView
+    <com.mophsic.checkinview.StepView
         android:id="@+id/checkInView2"
         android:layout_width="match_parent"
         android:layout_height="135dp"
@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toTopOf="@id/checkInView"
         />
 
-    <com.starmedia.checkinview.StepView
+    <com.mophsic.checkinview.StepView
         android:id="@+id/checkInView"
         android:layout_width="match_parent"
         android:layout_height="200dp"

@@ -1,4 +1,4 @@
-package com.starmedia.checkinview
+package com.mophsic.checkinview
 
 /**
  *  作者：xiaofei

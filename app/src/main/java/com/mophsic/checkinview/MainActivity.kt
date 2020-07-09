@@ -1,4 +1,4 @@
-package com.starmedia.checkinview
+package com.mophsic.checkinview
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton

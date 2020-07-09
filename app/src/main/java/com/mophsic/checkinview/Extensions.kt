@@ -1,4 +1,4 @@
-package com.starmedia.checkinview
+package com.mophsic.checkinview
 
 import android.content.res.Resources
 
