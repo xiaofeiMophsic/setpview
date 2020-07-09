@@ -2,8 +2,8 @@
 stepview 是一个自定义签到 View。
 
 ## 预览
-![](art/art1.png)
-![](art/art2.gif)
+<img src="art/art1.png" height="600px" width="300px"/>                   <img src="art/art2.gif" height="600px" width="300px"/>
+
 
 ## 属性定义
 ```xml
